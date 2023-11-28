@@ -15,7 +15,6 @@ public class Keyboard {
         System.out.println(Arrays.deepToString(target1));
         int result[] = new int[keymap.length];
         int count=0;
-
         for (String[] wt : target1) { //target 2times
             int abs[] = new int[wt.length];
             for (String wt2 : wt) { //"ABCD" 4times
